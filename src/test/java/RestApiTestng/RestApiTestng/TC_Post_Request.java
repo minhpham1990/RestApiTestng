@@ -8,17 +8,18 @@ import io.restassured.http.Method;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
 
-public class TC_Get_Request {
+public class TC_Post_Request {
 	@Test
 	public void getWeatherDetail() {
 		//set link endpoint
-		RestAssured.baseURI="https://reqres.in/api/";
+		RestAssured.baseURI="https://reqres.in";
 		
 		//request object
 		RequestSpecification httpRequest=RestAssured.given();
 		
 		//respone object
-		Response respone=httpRequest.request(Method.GET, "users=2");
+		
+		Response respone=httpRequest.request(Method.GET, "/api/users=2");
 		
 		
 		//verify respone
