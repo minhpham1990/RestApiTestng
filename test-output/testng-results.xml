@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="1356" started-at="2020-09-10T01:43:47Z" finished-at="2020-09-10T01:43:49Z">
+  <suite name="Default suite" duration-ms="2487" started-at="2020-09-13T15:17:38Z" finished-at="2020-09-13T15:17:41Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="1356" started-at="2020-09-10T01:43:47Z" finished-at="2020-09-10T01:43:49Z">
+    <test name="Default test" duration-ms="2487" started-at="2020-09-13T15:17:38Z" finished-at="2020-09-13T15:17:41Z">
       <class name="RestApiTestng.RestApiTestng.TC_Get_Request">
-        <test-method status="PASS" signature="getWeatherDetail()[pri:0, instance:RestApiTestng.RestApiTestng.TC_Get_Request@1d057a39]" name="getWeatherDetail" duration-ms="1339" started-at="2020-09-10T01:43:47Z" finished-at="2020-09-10T01:43:49Z">
+        <test-method status="PASS" signature="getWeatherDetail()[pri:0, instance:RestApiTestng.RestApiTestng.TC_Get_Request@8bd1b6a]" name="getWeatherDetail" duration-ms="2431" started-at="2020-09-13T15:17:38Z" finished-at="2020-09-13T15:17:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getWeatherDetail -->

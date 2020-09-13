@@ -1,5 +1,6 @@
 package RestApiTestng.RestApiTestng;
 
+import org.json.simple.JSONObject;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -22,12 +23,12 @@ public class TC_Get_Request {
 		
 		
 		//verify respone
-		String str_respone = respone.getBody().asString();
+		String str_respone = respone.getBody().asString();	
 		System.out.println("Respone request: "+str_respone);
 		
 		
 		int sts_code=respone.getStatusCode();
 		System.out.println("Status code: "+sts_code);
-		Assert.assertEquals(sts_code, 200);
+		Assert.assertEquals(sts_code, 200);	
 	}
 }
