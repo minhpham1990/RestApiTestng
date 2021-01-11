@@ -30,5 +30,6 @@ public class TC_Get_Request {
 		int sts_code=respone.getStatusCode();
 		System.out.println("Status code: "+sts_code);
 		Assert.assertEquals(sts_code, 200);	
+		//
 	}
 }
